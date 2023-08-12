@@ -1,11 +1,12 @@
 <script setup lang="ts">
+import image from "./assets/pi.jpg"
 </script>
 
 <template>
 <div class="container">
             <div class="highligth">
                 <div class="block">
-                    <img src="/pi.jpg"/>
+                    <img :src="image"/>
                     <p>59 avenue de la République</p>
                     <p>78800, Houilles</p>
                 </div>
