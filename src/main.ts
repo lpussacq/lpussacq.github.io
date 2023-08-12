@@ -1,6 +1,6 @@
-// import './assets/main.css' // TODO, remove if necessary
+import '@/assets/main.scss'
 
 import { createApp } from 'vue'
-import App from './App.vue'
+import App from '@/App.vue'
 
 createApp(App).mount('#app')
