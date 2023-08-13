@@ -55,7 +55,7 @@ import Section from '@/components/Section.vue';
 
                         <Section title="Environnement" class="mb-2">
                             <div class="mx-3">
-                                Au sein d'une équipe de 4 dévelppeurs, mon rôle a été de dévelpper de nouvelles
+                                Au sein d'une équipe de 4 dévelppeurs, mon rôle a été de développer de nouvelles
                                 fonctionnalités afin d'automatiser les tâches opérationnelles de recouvrement ainsi que
                                 d'assister aux tâches de support de la plateforme.
                             </div>
@@ -64,10 +64,10 @@ import Section from '@/components/Section.vue';
                         <Section title="Missions">
                             <div class="row mx-4">
                                 <ul class="col-8">
-                                    <li>Création d'un système de réconciliation automatique des virements</li>
+                                    <li>Création d'un système de réconciliation automatique des virement</li>
                                     <li>Intégration d'un système externe d'alerting</li>
                                     <li>Amélioration des processus automatiques de surendettement</li>
-                                    <li>Mise en place d'un système de création automatique de contract afin d'accélérer les
+                                    <li>Mise en place d'un système de création automatique de contracts afin d'accélérer les
                                         tests E2E back-end</li>
                                     <li>Fiabilisation du système de tests E2E front-end</li>
                                 </ul>
