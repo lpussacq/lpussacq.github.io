@@ -19,8 +19,7 @@ import Section from '@/components/Section.vue';
                     <li>
                         <Date>2013</Date> - <a href="https://www.iit.edu/">
                             <Mono>IIT</Mono>
-                        </a> -
-                        Master in Computer Science
+                        </a> - Master in Computer Science
                     </li>
                     <li>
                         <Date>2013</Date> - <a href="https://www.bordeaux-inp.fr/fr">
@@ -224,11 +223,9 @@ import Section from '@/components/Section.vue';
                                     <ul class="col-8">
                                         <li>Mise en place d'une nouvelle architecture</li>
                                         <li>Implémentation de Web API</li>
-                                        <li>Intégration aux différents services de sécurité approuvés par l'état français
-                                            pour
-                                            la
-                                            gestion de
-                                            données médicales</li>
+                                        <li>
+                                            Intégration aux différents services de sécurité approuvés par l'état français pour la gestion de données médicales
+                                        </li>
                                     </ul>
                                     <Cloud class="col-4 text-end" :words="[
                                         'C#', '.NET Framework',
