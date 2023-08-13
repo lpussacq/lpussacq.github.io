@@ -40,10 +40,10 @@ import Section from '@/components/Section.vue';
             <div class="card mb-3">
                 <div class="card-body">
                     <h5 class="card-title">
-                        <a href="https://younited.com/group">Younited</a>
+                        <a href="https://group.younited.com/">Younited</a>
                     </h5>
                     <h6 class="card-subtitle mb-2 text-body-secondary">
-                        Développeur Senior <Date>09/2021 -</Date>
+                        Développeur Senior <Date>10/2021 -</Date>
                     </h6>
                     <div class="card-text p-2">
                         <div class="mb-2">
@@ -64,12 +64,10 @@ import Section from '@/components/Section.vue';
                                 </ul>
                             </Section>
 
-                            <Section title="Technologies" class="col-5 text-end">
-                                <Cloud class="text-end" :words="[
-                            'C#', '.NET Core', 'Web API', 'OData', 'CosmosDB', 'SQL Server', 'AppInsights', 'Azure Functions', 'Azure Service Bus', 'Angular', 'Big Query'
-                                ]">
-                                </Cloud>
-                            </Section>
+                            <Cloud class="col-5 text-end" :words="[
+                        'C#', '.NET Core', 'Web API', 'OData', 'CosmosDB', 'SQL Server', 'AppInsights', 'Azure Functions', 'Azure Service Bus', 'Angular', 'Big Query'
+                            ]">
+                            </Cloud>
                         </div>
                     </div>
                 </div>
@@ -105,23 +103,25 @@ import Section from '@/components/Section.vue';
                                 </ul>
                             </Section>
 
-                            <Section title="Technologies" class="col-5 text-end">
-                                <Cloud class="text-end" :words="[
-                            'C#', '.NET Framework', '.NET Core','Web API', 'OData', 'Swagger', 'SQL Server','Azure', 'Blob storage', 'AppInsights', 'Event Grid', 'Function App', 'Logic App', 'Kendo UI', 'VueJs'
-                                ]">
-                                </Cloud>
-                            </Section>
+                            <Cloud class="col-5 text-end" :words="[
+                        'C#', '.NET Framework', '.NET Core','Web API', 'OData', 'Swagger', 'SQL Server','Azure', 'Blob storage', 'AppInsights', 'Event Grid', 'Function App', 'Logic App', 'Kendo UI', 'VueJs'
+                            ]">
+                            </Cloud>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="card mb-3">
-                <h3 class="card-header"><a href="https://www.viveris.fr/">Viveris</a></h3>
-                <div class="card-body">
-                    <h4 class="card-title">
+                <h3 class="d-flex align-items-center card-header">
+                    <div class="fs-3 fw-bold flex-grow-1">
+                        <a class="title-company" href="https://www.viveris.fr/">Viveris</a>
+                    </div>
+                    <div class="fs-5 fw-light text-end">
                         Ingénieur Informatique <Date>12/2013 - 01/2019</Date>
-                    </h4>
+                    </div>
+                </h3>
+                <div class="card-body">
                     <div>
                         Viveris est un groupe de conseil et d'ingénierie qui accompagne la transformation numérique des
                         entreprises et de leurs produits.
@@ -129,14 +129,17 @@ import Section from '@/components/Section.vue';
                     <hr>
                     <div class="mx-3">
                         <div class="card-text px-2">
-                            <h5 class="card-title">
-                                <a href="https://www.ratp.fr/">
-                                    <Mono>RATP</Mono>
-                                </a> - <Mono>OAM</Mono>
-                            </h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">
-                                Lead Développeur <Date>2016 - 01/2019</Date>
-                            </h6>
+                            <div class="d-flex mb-3 align-items-center">
+                                <div class="fs-4 fw-bold flex-grow-1">
+                                    <a class="title-company" href="https://www.ratp.fr/">
+                                        <Mono>RATP</Mono>
+                                    </a> - <Mono>OAM</Mono>
+                                </div>
+                                <div class="fw-light text-end">
+                                    Lead Développeur <Date>2016 - 01/2019</Date>
+                                </div>
+                            </div>
+
                             <div>
                                 Au sein de la <Mono>RATP</Mono>, l'entité <Mono>OAM</Mono> (Outils d'Aide à la Maintenance)
                                 développe des solutions logicielles permettant de faciliter le maintien du parcs
@@ -169,33 +172,33 @@ import Section from '@/components/Section.vue';
                                     </ul>
                                 </Section>
 
-                                <Section title="Technologies" class="col-5 text-end">
-                                    <Cloud class="text-end" :words="[
+                                    <Cloud class="col-5 text-end p-5" :words="[
                                         'PHP', 'Zend', 'Symfony', 'Composer',
                                         'HTML', 'CSS', 'JavaScript', 'jQuery',
                                         'MySQL', 'scripting'
                                     ]">
 
                                     </Cloud>
-                                </Section>
                             </div>
                         </div>
 
                         <hr>
 
                         <div class="card-text px-2">
-                            <h5 class="card-title">
-                                <a href="https://www.medissimo.fr/">Medissimo</a>
-                            </h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">
-                                Développeur Back-End <Date>2015-2016</Date>
-                            </h6>
+                            <div class="d-flex mb-3 align-items-center">
+                                <div class="fs-4 fw-bold flex-grow-1">
+                                    <a class="title-company" href="https://www.medissimo.fr/">Medissimo</a>
+                                </div>
+                                <div class="fw-light text-end">
+                                    Développeur Back-End <Date>2015-2016</Date>
+                                </div>
+                            </div>
                             <div>
                                 Medissimo est une entreprise rattachée au milieu médical. Grâce à son logiciel informatique,
                                 mis à disposition des pharmaciens, elle est leader mondial dans le domaine des piluliers.
                             </div>
 
-                            <Section title="Environnement">
+                            <Section title="Environnement" class="mb-3">
                                 <div class="mx-3">
                                     Au sein d'une équipe de 5 développeurs, j'ai été en charge de créer et mettre en place
                                     un back-end, pur Web API, permettant à l'application mobile de rappel de prise de
@@ -216,27 +219,27 @@ import Section from '@/components/Section.vue';
                                     </ul>
                                 </Section>
 
-                                <Section title="Technologies" class="col-5 text-end">
-                                    <Cloud :words="[
-                                        'C#', '.NET Framework',
-                                        'Web API', 'WCF',
-                                        'SQL Server',
-                                        'AngularJs', 'jQuery'
-                                    ]"></Cloud>
-                                </Section>
+                                <Cloud class="col-5 text-end p-5" :words="[
+                                    'C#', '.NET Framework',
+                                    'Web API', 'WCF',
+                                    'SQL Server',
+                                    'AngularJs', 'jQuery'
+                                ]"></Cloud>
                             </div>
                         </div>
 
                         <hr>
 
                         <div class="card-text px-2">
-                            <h5 class="card-title">
-                                <a href="https://www.thalesgroup.com/fr">Thales</a>
-                            </h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">
-                                Développeur Back-End/Front-End <Date>2014-2015</Date>
-                            </h6>
-                            <Section title="Environnement">
+                            <div class="d-flex mb-3 align-items-center">
+                                <div class="fs-4 fw-bold flex-grow-1">
+                                    <a class="title-company" href="https://www.thalesgroup.com/fr">Thales</a>
+                                </div>
+                                <div class="fw-light text-end">
+                                    Développeur Fullstack <Date>2014-2015</Date>
+                                </div>
+                            </div>
+                            <Section title="Environnement" class="mb-3">
                                 <div class="mx-3">
                                     Au sein d'une équipe de 5 développeurs, j'ai participé à la création du projet, la
                                     validation des choix technologiques et à l'implémentation des fonctionnalités jusqu'à
@@ -254,14 +257,12 @@ import Section from '@/components/Section.vue';
                                     </ul>
                                 </Section>
 
-                                <Section title="Technologies" class="col-4" style="direction: rtl;">
-                                    <Cloud :words="[
-                                        'C#', '.NET Framework', 'Asp.Net 4 MVC',
-                                        'JavaScript', 'RequireJs', 'DHTMLX',
-                                        'Oracle 11G'
-                                    ]">
-                                    </Cloud>
-                                </Section>
+                                <Cloud class="col-4 text-end p-4" :words="[
+                                    'C#', '.NET Framework', 'Asp.Net 4 MVC',
+                                    'JavaScript', 'RequireJs', 'DHTMLX',
+                                    'Oracle 11G'
+                                ]">
+                                </Cloud>
                             </div>
                         </div>
                     </div>
