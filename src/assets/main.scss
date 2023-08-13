@@ -12,3 +12,57 @@ body {
 a, a:visited { 
     color: var(--bs-heading-color);
 }
+
+
+@media print {
+  html {
+    font-size: 12px;
+  }
+
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 21cm;
+  }
+
+  .hightlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 6cm;
+    height: 59.3cm;
+    img {
+      width: 4cm;
+    }
+    
+    .__content {
+      margin: 0 0.5cm;
+    }
+
+    .__cloud_content {
+      margin: 0 0.2cm;
+    }
+  }
+
+  .body  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: 15cm;
+  }
+
+  .__break_page {
+    break-after: page;
+  }
+
+  .__break_page + div{
+    margin-top: .5cm;
+  }
+}

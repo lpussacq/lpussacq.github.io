@@ -81,7 +81,7 @@ import Section from '@/components/Section.vue';
                 </div>
             </div>
 
-            <div class="card mb-3">
+            <div class="card mb-3 __break_page">
                 <div class="card-body">
                     <div class="d-flex mb-3 align-items-center">
                         <div class="fs-4 fw-bold flex-grow-1">

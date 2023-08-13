@@ -6,8 +6,8 @@ import Content from "@/views/Content.vue"
 <template>
   <div class="container text-bg-light">
     <div class="row">
-      <Highlight class="col-3"></Highlight>
-      <Content class="col-9"></Content>
+      <Highlight class="col-3 hightlight"></Highlight>
+      <Content class="col-9 body"></Content>
     </div>
   </div>
 </template>
