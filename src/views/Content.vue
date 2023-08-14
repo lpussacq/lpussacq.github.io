@@ -64,7 +64,7 @@ import Section from '@/components/Section.vue';
                         <Section title="Missions">
                             <div class="row mx-4">
                                 <ul class="col-8">
-                                    <li>Création d'un système de réconciliation automatique des virement</li>
+                                    <li>Création d'un système de réconciliation automatique des virements</li>
                                     <li>Intégration d'un système externe d'alerting</li>
                                     <li>Amélioration des processus automatiques de surendettement</li>
                                     <li>Mise en place d'un système de création automatique de contracts afin d'accélérer les
@@ -72,7 +72,7 @@ import Section from '@/components/Section.vue';
                                     <li>Fiabilisation du système de tests E2E front-end</li>
                                 </ul>
                                 <Cloud class="col-4 text-end" :words="[
-                                    'C#', '.NET Core', 'Web API', 'CosmosDB', 'SQL Server', 'Azure', 'AppInsights', 'Azure Functions', 'Azure Service Bus', 'Angular', 'Big Query'
+                                    'C#', '.NET Core', 'Web API', 'CosmosDB', 'SQL Server', 'Azure', 'AppInsights', 'Azure Functions', 'Azure Service Bus', 'Angular', 'Specflow', 'Cypress', 'Big Query'
                                 ]">
                                 </Cloud>
                             </div>
@@ -158,7 +158,7 @@ import Section from '@/components/Section.vue';
                                 d'équipements présents dans les stations de la société de transport.
                             </div>
 
-                            <Section title="Environnement">
+                            <Section title="Environnement" class="my-2">
                                 <div class="mx-3">
                                     Au sein d'une équipe de 6 développeurs, mon rôle a été d'ajouter de nouvelles
                                     fonctionnalités et de maintenir l'application de télémaintenance et télédiagnostique
@@ -210,7 +210,7 @@ import Section from '@/components/Section.vue';
                                 mis à disposition des pharmaciens, elle est leader mondial dans le domaine des piluliers.
                             </div>
 
-                            <Section title="Environnement" class="mb-3">
+                            <Section title="Environnement" class="my-2">
                                 <div class="mx-3">
                                     Au sein d'une équipe de 5 développeurs, j'ai été en charge de créer et mettre en place
                                     un back-end, pur Web API, permettant à l'application mobile de rappel de prise de
@@ -249,7 +249,7 @@ import Section from '@/components/Section.vue';
                                     Développeur Fullstack <Date>2014-2015</Date>
                                 </div>
                             </div>
-                            <Section title="Environnement" class="mb-3">
+                            <Section title="Environnement" class="my-2">
                                 <div class="mx-3">
                                     Au sein d'une équipe de 5 développeurs, j'ai participé à la création du projet, la
                                     validation des choix technologiques et à l'implémentation des fonctionnalités jusqu'à
